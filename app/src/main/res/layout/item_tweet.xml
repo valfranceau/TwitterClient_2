@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="5dp">
+    android:layout_margin="5dp"
+    android:background="#E8F0F6">
 
     <ImageView
         android:id="@+id/ivProfileImage"
@@ -24,8 +25,12 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="0dp"
         android:layout_toEndOf="@+id/ivProfileImage"
+        android:clickable="true"
+        android:cursorVisible="false"
         android:text="LabadyEgzael"
-       />
+        android:textAllCaps="false"
+        android:textColor="#128ADA"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tvBody"
@@ -35,5 +40,10 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@+id/ivProfileImage"
-        android:text="This is my tweet!!" />
+        android:autoLink="all"
+        android:background="#E8F0F6"
+        android:backgroundTint="#F0F2F4"
+        android:linksClickable="true"
+        android:text="This is my tweet!!"
+        android:textColor="#020202" />
 </RelativeLayout>

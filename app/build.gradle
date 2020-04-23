@@ -53,8 +53,10 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
     //noinspection GradleDeprecatedConfiguration
-    def var = compile  'com.android.support:support-annotations:28.0.0'
+    def var = compile 'com.android.support:support-annotations:28.0.0'
 
     implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'org.parceler:parceler-api:1.1.12'
+    annotationProcessor 'org.parceler:parceler:1.1.12'
 
 }
